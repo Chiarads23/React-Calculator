@@ -18,6 +18,7 @@ body {
 
   .calculator {
     width: 100%;
+    max-width: 400px;
     background-color: rgb(245, 245, 245);
     border-radius: $default-size;
     overflow: hidden;
@@ -45,9 +46,11 @@ body {
     .digits{
       display:flex;
       flex-wrap:wrap;
+     
       button{
         flex: 1 1 33.333%;
         background-color: $dark-blue-shadow;
+         padding: 16px 0;
       }
     }
 
